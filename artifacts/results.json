@@ -1,0 +1,19 @@
+{
+  "svm": {
+    "name": "SVM (texture features)",
+    "auc": 0.8019943019943019
+  },
+  "rf": {
+    "name": "Random Forest",
+    "auc": 0.8380561034407189
+  },
+  "cnn": {
+    "name": "DenseNet121 (transfer learning)",
+    "auc": 0.9566074950690336
+  },
+  "classes": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "img_size": 224
+}
